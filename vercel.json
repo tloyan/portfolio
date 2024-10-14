@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-      {
-        "source": "/challenges/qr-code-component/:path*",
-        "destination": "https://qr-code-component.tloyan.com/:path*"
-      }
-    ]
-}
