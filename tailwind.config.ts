@@ -9,11 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-noto)']
-      },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        oswald: "var(--font-oswald)",
+        grotesk: "var(--font-space-grotesk)"
       },
     },
   },
