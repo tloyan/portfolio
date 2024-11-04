@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: 'https://qr-code-component.tloyan.com/',
-      lastModified: '2024-10-15T20:41:49.960Z',
+      lastModified: '2024-10-16T08:12:15.430Z ',
       priority: 0.8,
     },
   ]
