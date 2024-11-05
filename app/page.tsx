@@ -1,7 +1,11 @@
+import { HeroSection } from "./components/HeroSection/HeroSection"
+import { Header } from "./components/Header/Header"
+
 export default function Page() {
   return (
-    <div className="min-h-full">
-      <p className="font-oswald">TEST FONT</p>
+    <div className="h-full">
+      <Header />
+      <HeroSection />
     </div>
   )
 }
