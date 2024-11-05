@@ -2,9 +2,8 @@
 
 export function HeroSection() {
   return (
-    <div className="flex flex-col font-oswald">
-      
-      <div className="flex flex-col items-center mt-[10rem]">
+    <div className="flex flex-col font-oswald pt-[10rem] pb-[14rem]">
+      <div className="flex flex-col items-center">
         <h1 className="text-center  text-[7.2rem] sm:text-[11.8rem] lg:text-[14.4rem] font-bold uppercase leading-none tracking-[-.06em]">
           thomas<br />loyan
         </h1>

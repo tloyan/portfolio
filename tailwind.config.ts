@@ -12,6 +12,14 @@ const config: Config = {
         oswald: "var(--font-oswald)",
         grotesk: "var(--font-space-grotesk)"
       },
+      colors: {
+        primary: "",
+        neutral: {
+          dark: "#131313",
+          gray: "#797979",
+          lightgray: "#A9A9A9",
+        }
+      }
     },
   },
   plugins: [],
