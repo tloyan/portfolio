@@ -13,7 +13,7 @@ const config: Config = {
         grotesk: "var(--font-space-grotesk)"
       },
       colors: {
-        primary: "",
+        primary: "#F56E07",
         neutral: {
           dark: "#131313",
           gray: "#797979",

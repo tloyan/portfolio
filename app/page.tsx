@@ -3,6 +3,7 @@ import { Header } from "./components/Header/Header"
 import { WorkWithSection } from "./components/WorkWithSection/WorkWithSection"
 import { StackSection } from "./components/StackSection/StackSection"
 import { AboutSection } from "./components/AboutSection/AboutSection"
+import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection"
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
         <WorkWithSection />
         <StackSection />
         <AboutSection />
+        <ProjectsSection />
       </main>
     </div>
   )
