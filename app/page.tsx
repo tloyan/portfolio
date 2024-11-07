@@ -4,6 +4,7 @@ import { WorkWithSection } from "./components/WorkWithSection/WorkWithSection"
 import { StackSection } from "./components/StackSection/StackSection"
 import { AboutSection } from "./components/AboutSection/AboutSection"
 import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection"
+import { ContactSection } from "./components/ContactSection/ContactSection"
 
 export default function Page() {
   return (
@@ -16,6 +17,9 @@ export default function Page() {
         <AboutSection />
         <ProjectsSection />
       </main>
+      <footer className="">
+        <ContactSection />
+      </footer>
     </div>
   )
 }

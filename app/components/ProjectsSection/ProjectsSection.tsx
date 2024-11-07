@@ -18,6 +18,7 @@ export function ProjectsSection() {
         <Card />
         <Card />
       </div>
+      <button className="font-oswald text-[2.3rem] font-bold border-primary border-b-[.2rem] py-[.4rem] hover:text-primary self-center">see more</button>
     </section>
   );
 }
@@ -40,7 +41,7 @@ function Card() {
         <div
           className={cn(
             "hidden absolute left-0 top-0 h-full w-full flex-col items-center justify-center space-y-[2rem] bg-[rgba(256,256,256,.5)] font-oswald text-[1.6rem] font-medium",
-            active && "lg:flex",
+            active && "xl:flex",
           )}
         >
           <button className="border-primary border-b-[.2rem] py-[1.2rem] uppercase hover:text-primary">
@@ -59,7 +60,7 @@ function Card() {
         <p>CSS</p>
         <p>JAVASCRIPT</p>
       </div>
-      <div className="mt-[1.8rem] flex gap-[2.4rem] font-oswald text-[1.6rem] font-medium lg:hidden">
+      <div className="mt-[1.8rem] flex gap-[2.4rem] font-oswald text-[1.6rem] font-medium xl:hidden">
         <button className="border-primary border-b-[.2rem] py-[1.2rem] uppercase hover:text-primary">
           view project
         </button>
