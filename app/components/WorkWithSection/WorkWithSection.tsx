@@ -51,9 +51,9 @@ export function WorkWithSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.5 }}
           className="mt-[4rem] flex flex-col items-center sm:mt-[rem] sm:items-start"
-            >
+        >
           <p className="text-center font-oswald text-[1.8rem] font-bold leading-none tracking-[-.03] sm:text-[2.4rem]">
             {data?.title}
           </p>
