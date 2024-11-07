@@ -19,7 +19,7 @@ export function WorkWithSection() {
       console.log("in Interval")
       if (id == 4) setId(1)
       else setId(id + 1)
-    }, 3000)
+    }, 10000)
 
     return () => clearTimeout(timeout)
   }, [id])
