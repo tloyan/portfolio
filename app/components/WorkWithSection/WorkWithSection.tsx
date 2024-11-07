@@ -19,7 +19,7 @@ export function WorkWithSection() {
       console.log("in Interval")
       if (id == 4) setId(1)
       else setId(id + 1)
-    }, 10000)
+    }, 3000)
 
     return () => clearTimeout(timeout)
   }, [id])
@@ -51,7 +51,7 @@ export function WorkWithSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ ease: "easeInOut" }}
           className="mt-[4rem] flex flex-col items-center sm:mt-[rem] sm:items-start"
         >
           <p className="text-center font-oswald text-[1.8rem] font-bold leading-none tracking-[-.03] sm:text-[2.4rem]">
