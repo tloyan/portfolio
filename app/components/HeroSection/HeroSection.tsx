@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import * as motion from "framer-motion/client";
 
 export function HeroSection() {
@@ -6,8 +6,8 @@ export function HeroSection() {
     <div className="flex flex-col pb-[14rem] pt-[10rem] font-oswald">
       <div className="relative flex flex-col items-center">
         <Title />
-        <div className="mt-[-1.4rem] h-[20.2rem] w-[20.2rem] rounded-[1rem] bg-slate-200 sm:mt-[-2.8rem]">
-          {/* <Image src={null} alt="" /> */}
+        <div className="mt-[-1.4rem] h-[20.2rem] w-[20.2rem] rounded-[1rem] bg-neutral-200 sm:mt-[-2.8rem] relative overflow-hidden">
+          <Image src="/images/tloyan_profile.png" alt="profile picture" width={450} height={450} />
         </div>
         <h2 className="mt-[.4rem] text-center text-[2.4rem] font-medium leading-none tracking-[-.03em]">
           Frontend Engineer <br className="sm:hidden" />
@@ -51,7 +51,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            x: -2000,
+            x: "-20vw",
           }}
           variants={letterVariants}
         >
@@ -60,7 +60,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: -2000,
+            y: "-20vw",
           }}
           variants={letterVariants}
         >
@@ -69,7 +69,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: 2000,
+            y: "20vw",
           }}
           variants={letterVariants}
         >
@@ -78,7 +78,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: -2000,
+            y: "-20vw",
           }}
           variants={letterVariants}
         >
@@ -87,7 +87,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: 2000,
+            y: "20vw",
           }}
           variants={letterVariants}
         >
@@ -96,7 +96,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            x: 2000,
+            x: "20vw",
           }}
           variants={letterVariants}
         >
@@ -107,7 +107,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            x: -2000,
+            x: "-20vw",
           }}
           variants={letterVariants}
         >
@@ -116,7 +116,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: -2000,
+            y: "-20vw"
           }}
           variants={letterVariants}
         >
@@ -125,7 +125,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: 2000,
+            y: "20vw",
           }}
           variants={letterVariants}
         >
@@ -134,7 +134,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            y: -2000,
+            y: "-20vw",
           }}
           variants={letterVariants}
         >
@@ -143,7 +143,7 @@ function Title() {
         <motion.span
           initial={{
             opacity: 0,
-            x: 2000,
+            x: "20vw",
           }}
           variants={letterVariants}
         >
