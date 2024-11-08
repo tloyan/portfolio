@@ -7,26 +7,45 @@ import {
   Lacentrale,
 } from "@/app/icons/BrandIcons";
 import { cn } from "@/app/utils/cn";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion"
 import workwithDatas from "@/app/data/workwith.json"
 
 export function WorkWithSection() {
   const [id, setId] = useState(1);
+  const [isVisible, setIsVisible] = useState(false)
+  const ref = useRef(null)
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      console.log("in Interval")
-      if (id == 4) setId(1)
-      else setId(id + 1)
-    }, 10000)
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting)
+    }, { threshold: .5 })
 
-    return () => clearTimeout(timeout)
-  }, [id])
+    if (ref.current) observer.observe(ref.current)
+
+    return () => {
+      if (ref.current) observer.unobserve(ref.current)
+    }
+  })
+
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+
+    if (isVisible) {
+      timeout = setTimeout(() => {
+        if (id == 4) setId(1)
+        else setId(id + 1)
+      }, 7000)
+    }
+    
+    return () => {
+      if (isVisible) clearTimeout(timeout)
+    }
+  }, [id, isVisible])
 
   const data = workwithDatas.find((i) => i.id == id);
   return (
-    <section className="border-t-[.1rem] py-[5.6rem] sm:py-[12.6rem]">
+    <section ref={ref} className="border-t-[.1rem] py-[5.6rem] sm:py-[12.6rem]">
       <div className="flex w-full flex-wrap items-center justify-center gap-x-[5vw] gap-y-[3vw] sm:flex-nowrap">
         <Monoprix
           className={cn("w-[40%] hover:cursor-pointer", id !== 1 && "fill-neutral-lightgray")}
