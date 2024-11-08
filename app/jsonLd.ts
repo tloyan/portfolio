@@ -22,7 +22,7 @@ export const jsonLd: WithContext<WebPage> = {
     "@type": "WebPage",
     "name": "Thomas Loyan Portfolio",
     "description": "Portfolio of Thomas Loyan, Frontend Developer specializing in Next.js, React, and modern web technologies.",
-    "image": "https://thomasloyan.com/tloyan.png", // Aperçu du portfolio
+    "image": "https://thomasloyan.com/preview.jpg", // Aperçu du portfolio
     "author": person,
     "inLanguage": "en",
     "keywords": [
@@ -30,6 +30,8 @@ export const jsonLd: WithContext<WebPage> = {
       "Next.js developer",
       "React developer",
       "JavaScript developer",
+      "Thomas Loyan",
+      "Loyan",
       "Thomas Loyan portfolio",
       "Thomas Loyan developer",
       "Tailwind CSS",

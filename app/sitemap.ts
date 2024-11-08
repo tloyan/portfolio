@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import projects from "@/app/data/projects.json"
  
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -7,10 +8,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       priority: 1,
     },
-    {
-      url: 'https://qr-code-component.tloyan.com/',
-      lastModified: '2024-10-16T08:12:15.430Z ',
-      priority: 0.8,
-    },
+    ...projects.map(({ live_url, updated_at }) => ({
+      url: live_url,
+      lastModified: updated_at,
+      priority: 0.8
+    }))
   ]
 }

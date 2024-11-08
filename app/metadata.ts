@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       'Frontend developer',
       'Fullstack developer',
       'Thomas Loyan',
+      'Loyan',
       'Thomas Loyan developer',
       'Thomas Loyan portfolio',
     ],
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
       url: "https://thomasloyan.com",
       siteName: "Thomas Loyan | Portfolio",
       images: [{
-        url: "https://thomasloyan.com/tloyan.png",
+        url: "https://thomasloyan.com/preview.jpg",
         width: 3024,
         height: 1890,
         alt: 'Thomas Loyan | Portfolio',
@@ -48,9 +49,9 @@ export const metadata: Metadata = {
     },
     icons: {
       icon: {
-        url: '/favicon-32x32.png',
-        sizes: '32x32',
-        type: 'image/png'
+        url: '/icon.svg',
+        sizes: '29x28',
+        type: 'image/svg'
       },
     },
     twitter: {
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
       description: 'Thomas Loyan portfolio made with React, Typescript, Nextjs ',
       creator: '@thomasloyan',
       images: {
-        url: 'https://thomasloyan.com/tloyan.png',
+        url: 'https://thomasloyan.com/preview.jpg',
         alt: 'Thomas Loyan | Portfolio',
       },
     }

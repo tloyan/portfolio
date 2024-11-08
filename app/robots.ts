@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import projects from "@/app/data/projects.json"
  
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -8,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
     },
     sitemap: [
         'https://thomasloyan.com/sitemap.xml',
-        'https://qr-code-component.tloyan.com/sitemap.xml'
+        ...projects.map(({ live_url }) => `${live_url}/sitemap.xml`),
     ],
   }
 }
