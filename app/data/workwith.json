@@ -1,30 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Creation de la version actuelle du site web",
-    "stack": ["Javascript", "ReactJS", "GraphQL", "Google Cloud Platform"],
-    "description":
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies lobortis rutrum. Cras gravida dui eget justo molestie tempus. Nullam tincidunt tortor felis. Integer venenatis sapien eget felis molestie, non scelerisque est facilisis. Vivamus aliquam, justo at aliquam placerat, eros erat imperdiet nisi, sit amet sagittis mauris mauris nec odio. Nam lacus turpis, ornare in tortor non, viverra varius velit. Ut sollicitudin vulputate purus eget vulputate. Cras non imperdiet sem."
+    "title": "Monoprix – Lead Développeur Front-end",
+    "stack": ["Javascript", "ReactJS", "GraphQL", "Google Cloud Platform", "MongoDB", "PostgreSQL", "Elasticsearch"],
+    "description": [
+      "Chez Monoprix, j'ai débuté en tant que développeur front-end sur la section \"courses\" du site monoprix.fr. Mon rôle initial consistait à concevoir et maintenir des fonctionnalités critiques en utilisant React et Apollo GraphQL, tout en évoluant dans une infrastructure basée sur Google Cloud Platform. J’ai également manipulé Kubernetes pour des déploiements simples et des scripts d'automatisation.",
+      "Rapidement promu lead développeur, j’ai pris en charge l’encadrement et le mentoring de nouveaux développeurs rejoignant le projet. J’ai supervisé leurs travaux, en particulier sur la section \"mode\" du site, et collaboré étroitement avec le lead développeur de Monoprix pour garantir la cohérence technique et le respect des délais.",
+      "Cette collaboration impliquait également une coordination avec plusieurs équipes backend et front-end réparties en France et en Tunisie. Mon expérience chez Monoprix m’a permis de renforcer mes compétences en gestion de projets d’envergure, en leadership technique et en communication inter-équipes, tout en livrant un produit performant et évolutif qui contribue activement à l’expérience client."
+    ]
   },
   {
     "id": 2,
-    "title": "Creation d'une application interne",
-    "stack": ["Javascript", "ReactNative", "Redux", "Export CSV"],
-    "description":
-      "Suspendisse porttitor, purus in fringilla ornare, sapien dui molestie dui, quis interdum purus risus at lacus. Phasellus eleifend, eros id vehicula molestie, velit nisl ullamcorper nunc, in pulvinar metus lectus sed diam. Quisque eget nulla ac mi cursus luctus. Integer egestas a lorem sed tempus. Integer imperdiet diam quis est porta placerat. Duis ullamcorper ut elit sed ultrices. Praesent ut ultrices ex, vitae lacinia ante. Donec ut urna vitae erat convallis porta gravida sed nulla. Integer lobortis lacinia ipsum, mattis consectetur erat scelerisque a. Pellentesque tristique in velit sed ultrices. Proin pretium purus auctor urna faucibus, nec pretium orci placerat. Praesent tempor aliquet molestie. Morbi quis ante pulvinar, efficitur urna id, pretium est. Donec rhoncus ac lorem eget dapibus. Nunc scelerisque blandit nulla. Integer sed semper nibh, in pellentesque dolor."
+    "title": "Franprix – Développeur React Native",
+    "stack": ["Javascript", "React Native", "Redux", "Realm"],
+    "description": [
+      "Pour Franprix, j’ai repris et finalisé le développement d’une application mobile dédiée aux franchisés. Développée en React Native avec Redux et Realm, cette application facilitait la gestion des commandes de produits lors du salon annuel de l’enseigne.",
+      "Fonctionnant sur un réseau local, elle permettait aux franchisés de passer des commandes directement depuis des tablettes, les données étant ensuite exportées et validées par plusieurs niveaux de responsables.",
+      "Durant les deux jours du salon, j’ai assuré un support technique sur site, répondant en temps réel aux problèmes rencontrés et ajustant rapidement l’application aux besoins immédiats. Ce projet a démontré ma capacité à gérer des situations critiques, à optimiser l’expérience utilisateur sous contraintes fortes et à livrer une solution fonctionnelle dans un contexte événementiel exigeant."
+    ]
   },
   {
     "id": 3,
-    "title": "Creation d'une Application interne de prise de prospects",
-    "stack": ["Javascript", "ReactNative"],
-    "description":
-      "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean lacinia non nulla finibus efficitur. Aliquam ornare magna et libero vehicula consequat. Quisque risus sapien, dignissim et nisl a, lobortis pharetra est. Suspendisse a lacus ut nisl viverra dignissim. Sed at egestas est, in venenatis lorem. Aliquam ut tempus tellus. Aliquam erat volutpat. Proin convallis feugiat quam non auctor. Ut dignissim cursus quam, vitae ultricies mauris bibendum vel. Vestibulum cursus sodales lacus vel tincidunt. In hac habitasse platea dictumst. Aliquam ac risus arcu. Curabitur eu purus ipsum. Quisque dignissim diam sed massa lacinia, et porta odio elementum. Nunc finibus at nibh at bibendum."
+    "title": "Porsche France – Développeur React Native",
+    "stack": ["Javascript", "React Native", "GraphQL"],
+    "description": [
+      "Chez Porsche France, j’ai conçu et développé une application mobile privée destinée à leurs commerciaux, déployée via l’AppleStore privé. Cette application était utilisée lors d’événements et de salons automobiles pour collecter les données des prospects intéressés par des essais ou des achats de véhicules.",
+      "Les commerciaux pouvaient enregistrer les préférences des clients (modèle, options, etc.) et suivre les opportunités de vente de manière centralisée et sécurisée.",
+      "Ce projet m’a permis de répondre à des exigences élevées en matière de confidentialité et de sécurité des données, tout en livrant une application fluide, conforme aux standards de qualité de la marque Porsche. En travaillant dans un environnement où l’image et la précision sont essentielles, j’ai développé une interface élégante et intuitive qui a amélioré l’efficacité des équipes commerciales."
+    ]
   },
   {
     "id": 4,
-    "title": "Support sur un site partenaire - 'caradisiace.fr'",
-    "stack": ["Typescrit", "React", "Next.js", "AWS"],
-    "description":
-      "Nulla mollis, tellus vitae pretium vestibulum, turpis odio eleifend nibh, porta luctus erat diam eu felis. Suspendisse potenti. Suspendisse eu velit ut ligula venenatis hendrerit. Phasellus tortor ligula, ultricies at leo non, hendrerit commodo augue. Aenean consequat dignissim magna, quis efficitur ipsum aliquam in. Etiam a venenatis nunc. Curabitur eget massa eget magna fringilla varius ut a diam. Donec id lectus sapien. Suspendisse potenti. Mauris tempor et metus eget tempus."
+    "title": "Groupe La Centrale – Développeur Full-stack",
+    "stack": ["Typescript", "React", "Next.js", "AWS", "MySQL", "OpenSearch"],
+    "description": [
+      "Au sein du Groupe La Centrale, j’ai joué un rôle de développeur full-stack sur le site caradisiac.com, en accompagnant la transition technologique de PHP vers React. En utilisant une architecture micro-frontend basée sur un framework interne, j’ai développé des fonctionnalités modulaires tout en optimisant la maintenabilité du code grâce à TypeScript.",
+      "En parallèle, j’ai travaillé sur le back-end, notamment sur la création de fonctions serverless avec AWS Lambda et la gestion de bases de données MySQL pour des traitements complexes.",
+      "J’ai également mené des POC (proofs of concept) pour améliorer les flux de transfert de données et automatiser des processus clés, comme la création d’articles pour les équipes éditoriales. Cette mission m’a permis d’acquérir une expertise solide en développement full-stack, de contribuer à la modernisation d’un site de référence et d’apporter des solutions innovantes pour améliorer la performance et la scalabilité de la plateforme."
+    ]
   }
 ]

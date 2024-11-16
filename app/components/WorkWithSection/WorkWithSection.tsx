@@ -79,9 +79,11 @@ export function WorkWithSection() {
           <div className="text-neutral-gray mt-[1.2rem] flex flex-wrap items-center justify-center gap-x-[1.6rem] gap-y-[.4rem] font-grotesk text-[1.2rem] font-medium leading-none sm:mt-[1.6rem] sm:text-[1.6rem]">
             {data?.stack.map((name) => <p key={name}>{name}</p>)}
           </div>
-          <p className="mt-[1.6rem] text-center font-grotesk text-[1.4rem] sm:mt-[2.4rem] sm:text-start sm:text-[1.8rem]">
-            {data?.description}
-          </p>
+          {data?.description.map((description) => 
+            <p className="mt-[1.6rem] text-center font-grotesk text-[1.4rem] sm:mt-[2.4rem] sm:text-start sm:text-[1.8rem]">
+              {description}
+            </p>
+          )}
         </motion.div>
       </AnimatePresence>
     </section>
