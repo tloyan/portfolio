@@ -10,9 +10,7 @@ export function HeroSection() {
           <Image src="/images/tloyan_profile.png" alt="profile picture" width={450} height={450} />
         </div>
         <h2 className="mt-[.4rem] text-center text-[2.4rem] font-medium leading-none tracking-[-.03em]">
-          Frontend Engineer <br className="sm:hidden" />
-          <span className="hidden sm:inline">|</span> 8 years in web
-          technologies
+        Développeur front-end & full-stack <br className="" /><span className="text-neutral-600 font-light">7 ans d'expérience dans les technologies web</span>
         </h2>
       </div>
     </div>

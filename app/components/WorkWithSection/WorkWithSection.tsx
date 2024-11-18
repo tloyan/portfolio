@@ -35,7 +35,7 @@ export function WorkWithSection() {
       timeout = setTimeout(() => {
         if (id == 4) setId(1)
         else setId(id + 1)
-      }, 7000)
+      }, 10000)
     }
     
     return () => {

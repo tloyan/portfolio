@@ -12,10 +12,10 @@ export default function Page() {
       <Header />
       <HeroSection />
       <main className="px-[1.6rem] sm:px-[3.2rem] lg:px-[16.4rem]">
+        <AboutSection />
         <WorkWithSection />
         <StackSection />
-        <AboutSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
       </main>
       <footer className="">
         <ContactSection />

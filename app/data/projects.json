@@ -43,7 +43,8 @@
     "live_url": "https://recipe-page.tloyan.com",
     "repo_url": "https://github.com/tloyan/frontendmentor-recipe-page",
     "updated_at": "2024-10-18T21:36:05.109Z",
-    "dificulty": "newbie"
+    "dificulty": "newbie",
+    "landing_order": 3
   },
   {
     "id": 5,
@@ -77,8 +78,7 @@
     "live_url": "https://testimonials-grid-section.tloyan.com",
     "repo_url": "https://github.com/tloyan/frontendmentor-testimonials-grid-section",
     "updated_at": "2024-10-22T09:43:27.629Z",
-    "dificulty": "junior",
-    "landing_order": 3
+    "dificulty": "junior"
   },
   {
     "id": 8,
