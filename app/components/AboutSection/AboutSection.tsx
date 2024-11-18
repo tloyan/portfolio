@@ -1,10 +1,7 @@
 export function AboutSection() {
   return (
     <section className="border-t-[.1rem] py-[5.6rem] sm:py-[12.6rem] font-grotesk text-[1.4rem] text-center sm:text-[1.8rem] sm:text-start space-y-[1.2rem] sm:space-y-[2.4rem]">
-      <p>Bonjour, je suis un apprenant passionné et curieux, toujours en quête de nouveaux défis et de nouvelles connaissances. Mon parcours m’a amené à explorer une grande diversité de domaines, de la programmation embarquée au développement web, en passant par la conception d’algorithmes et l’optimisation des performances. Ce qui me motive avant tout, c’est de créer des solutions fonctionnelles, bien pensées, rapides et optimisées, toujours en gardant à l’esprit qu’elles doivent avoir une vraie utilité pour les gens. Je crois profondément qu’allier expertise technique et compréhension des besoins métier est la clé pour apporter de la valeur.</p>
-      <p>En ce moment, je me concentre sur le perfectionnement de mes compétences en participant aux défis de Frontend Mentor, en approfondissant mes connaissances en algorithmes, et en étudiant des concepts comme l’architecture logicielle. Ces apprentissages me permettent de structurer mes approches et de continuer à progresser dans ma pratique.</p>
-      <p>En dehors de la technologie, ma famille est au cœur de ma vie. J’aime passer du temps avec mon enfant, redécouvrir le monde à travers ses yeux et partager des moments simples mais riches de sens. J’apprécie aussi les activités qui stimulent ma curiosité, comme la cuisine, le jardinage ou les jeux de rôle et de société. Enfin, je trouve une grande source d’inspiration dans la diversité des cultures et des expériences humaines, ce qui me pousse à toujours m’ouvrir aux autres.</p>
-      <p>Si vous cherchez quelqu’un de passionné, curieux et engagé, prêt à s’investir pleinement dans un projet, je serais ravi d’en discuter avec vous !</p>
+      <p>Développeur passionné avec une solide expérience en technologies modernes comme Nextjs, React, GraphQL et AWS, je suis dédié à la création de solutions web performantes et adaptées à vos besoins. J’allie expertise technique, souci du détail, et compréhension des enjeux métier pour livrer des produits de qualité.</p><p>Mon objectif: transformer vos idées en résultats concrets et impactants.</p>
     </section>
   )
 }
